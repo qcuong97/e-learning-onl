@@ -1,0 +1,101 @@
+.p-1{
+	padding : 1rem;
+}
+.font-weight-bold{
+	font-weight: bold;
+}
+.font-30{
+	font-size : 30px !important;
+}
+.search-class {
+	padding : 0px 10px;
+}
+#form-search{
+	padding-top : 20px;
+}
+.search-title{
+	padding-left : 10px;
+}
+.test{
+	border : 1px solid red;
+}
+.class-item{
+	padding : 10px;
+	border-radius : 10px;
+	height : 150px;
+	margin : 10px;
+	border : 1px solid gray;
+}
+.header-class{
+	border-radius : 10px 10px 0px 0px;
+	width : 95%;
+	padding : 5px;
+	position: absolute;
+	left: 2.5%;
+	top: 0;
+	
+	/*background-color : #33A243;*/
+}
+.header-class h6{
+	font-weight : 700;
+}
+.body-class-img{
+	background-size : cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height : 100%;
+	width: 90%;
+	margin : auto;
+	opacity: 0.6;
+}
+.body-subject{
+	position: absolute;
+	left: 2.5%;
+	bottom: 0;
+	padding : 5px;
+	font-weight : 700;
+}
+.class-action{
+	position: absolute;
+	bottom : 0;
+	right : 1%;
+	display : none;
+	z-index : 100;
+}
+.class-item:hover{
+	/*opacity: 0.3;*/
+}
+.class-item:hover .class-action{
+	display : block;
+}
+.wrap{
+	margin-top : 20px;
+}
+/*// my-class*/
+.join-class{
+	margin-top : 30px;
+	padding-left : 15px;
+	padding-right : 15px;
+}
+#join-class{
+	display : inline-block;
+}
+#input-class-code{
+	width : 20%;
+	height : 30px;
+	display : inline;
+	padding-top: 2px;
+	margin-left : 30px;
+}
+.view-class{
+	position: absolute;
+	top : 0;
+	right : 1%;
+	display : none;
+}
+.class-item:hover .view-class{
+	display: block;
+}
+.invitations{
+	margin-top : 10px !important;
+}

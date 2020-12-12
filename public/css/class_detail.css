@@ -1,0 +1,71 @@
+.box-title{
+	display : block !important;
+	padding : 5px 0px;
+}
+.btn-box-header{
+	/*display : block !important;*/
+	width: 180px;
+}
+.group-btn{
+	padding-top : 10px;
+}
+.teacher-name{
+	padding : 20px 0px;
+	text-align : center;
+	font-size : 24px;
+}
+.teacher-name .name{
+	font-size : 30px;
+	font-weight : bold;
+	color : #3c8dbc;
+}
+hr{
+	color : gray;
+}
+.document-title{
+	font-size : 24px;
+}
+.btn-box-header a{
+	color : white;
+	font-weight : bold;
+}
+.delete-document{
+	background: none;
+    border: 0px;
+    outline : none;
+}
+/*//comment*/
+.wrap-comment{
+    width: 90%;
+    margin: auto;
+}
+.avatar-comment{
+    display: flex;
+}
+.avatar-comment img{
+    width: auto;
+    height: 5rem;
+}
+.comment-item{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.content-comment textarea{
+    height: 80%;
+    width: 100%;
+}
+.commentor{
+    padding-top: 10px;
+}
+.delete-comment{
+    cursor: pointer;
+}
+.delete-comment:hover{
+    text-decoration: underline;
+}
+.font-weight-bold{
+	font-weight: bold;
+}
+.admin{
+	background-color : yellow;
+}
